@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+position: relative;
+width: 400px;
+height: 158px;
+left: 100px;
+top: 53px;
+
+font-family: Sansita;
+font-style: normal;
+font-weight: normal;
+font-size: 120px;
+line-height: 173px;
+
+color: #000000;
+}
