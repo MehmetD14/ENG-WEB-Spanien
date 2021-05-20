@@ -17,48 +17,51 @@
   font-family: Sansita;
   font-style: normal;
   font-weight: normal;
-  font-size: 120px;
+  font-size: 90px;
   line-height: 125px;
   color: #000000;
 }
-#Culture {
+#home {
   position: static;
-  padding-right: 145px;
-  padding-left: auto;
-  left: 600px;
-  top: 53px;
+  margin-right: 10px;
+  width: 128px;
+  height: 65px;
+  left: 1242px;
+  top: 100px;
   font-family: Sansita;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 86px;
+  font-size: 24px;
+  line-height: 58px;
   color: #000000;
 }
 
-#Traditions {
-  position: static;
-  padding-right: 145px;
-  padding-left: auto;
-  left: 900px;
-  top: 53px;
-  font-family: Sansita;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 86px;
-  color: #000000;
+#about {
+position: static;
+margin-right: 10px;
+width: 200px;
+height: 65px;
+left: 1400px;
+top: 100px;
+font-family: Sansita;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 58px;
+color: #000000;
 }
-#Monuments {
+#contact{
   position: static;
-  padding-right: 145px;
-  padding-left: auto;
-  left: 1300px;
-  top: 53px;
+  width: 158px;
+  height: 65px;
+  margin-right:20px;
+  left: 1600px;
+  top: 100px;
   font-family: Sansita;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 86px;
+  font-size: 24px;
+  line-height: 58px;
   color: #000000;
 }
 a:hover {
@@ -66,8 +69,8 @@ a:hover {
 }
 #Welcome{
 position: static;
-width: 800px;
-height: 400px;
+width: 400px;
+height: 180px;
 left: 100px;
 padding-left: 225px;
 padding-top: 140px;
@@ -75,8 +78,8 @@ top: 364px;
 font-family: Sansita;
 font-style: normal;
 font-weight: normal;
-font-size: 144px;
-line-height: 173px;
+font-size: 75px;
+line-height: 100px;
 color: #000000;
 }
 
@@ -117,4 +120,10 @@ height: 602.04px;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+#left{
+  float:left;
+}
+#right{
+  float:right;
 }
