@@ -4,7 +4,7 @@
 }
 .header {
   padding: 25px;
-  background-color: #ffffff;
+  background-color: #ff000004;
 }
 .head {
   position: static;
@@ -50,19 +50,8 @@ font-size: 24px;
 line-height: 58px;
 color: #000000;
 }
-#contact{
-  position: static;
-  width: 158px;
-  height: 65px;
-  margin-right:20px;
-  left: 1600px;
-  top: 100px;
-  font-family: Sansita;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 58px;
-  color: #000000;
+a{
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
@@ -96,6 +85,16 @@ top: 240px;
 background-image: image-set("HomePage-Pics/spain1 barcelona.jpg");
 background-size:305.62px 402.04px;
 }
+#imagebox2{
+  position: absolute;
+  border-radius: 75px;
+  width: 305.62px;
+  height: 402.04px;
+  left: 1200px;
+  top: 240px;
+  background-image: image-set("Sights-Pics/slide1.jpg");
+  background-size:305.62px 402.04px;
+  }
 .slide {
 display:none;
 border-radius: 75px;
@@ -134,17 +133,17 @@ color: #000;
   float:right;
 }
 #cult{
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0.575);
   overflow: hidden;
   height: 400px;
 }
 #trad{
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 238, 0, 0.521);
   height:400px;
   overflow: hidden;
 }
 #sight{
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0.575);
   overflow: hidden;
 }
 .undertitle{
@@ -177,4 +176,26 @@ color: #000;
 }
 .spanhalf{
   width:300px;
+}
+h1{
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  margin-left:42%;
+}
+#data{
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  width: 35%;
+  margin-left: 30%;;
+}
+#little, #more{
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  width: 25%;
 }
