@@ -4,10 +4,7 @@
 }
 .header {
   padding: 25px;
-  background-color: #575757;
-}
-#main{
-  background-color: #ff0000;
+  background-color: #ffffff;
 }
 .head {
   position: static;
@@ -75,9 +72,8 @@ position: static;
 width: 400px;
 height: 180px;
 left: 100px;
-padding-left: 140px;
-padding-bottom: 120px;
-padding-top: 120px;
+padding-left: 225px;
+padding-top: 140px;
 top: 364px;
 font-family: Sansita;
 font-style: normal;
@@ -96,13 +92,13 @@ left: 1200px;
 top: 297.96px;
 background-image: image-set("HomePage-Pics/spain1 barcelona.jpg");
 background-size:505.62px 602.04px;
-margin-: ;
 }
 .slide {
 display:none;
 border-radius: 75px;
-width: 305.62px;
-height: 402.04px;
+width: 505.62px;
+height: 602.04px;
+
 }
 .höger, .vänster{
     height:50px; 
