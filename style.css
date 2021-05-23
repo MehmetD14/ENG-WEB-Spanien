@@ -112,13 +112,14 @@ height: 402.04px;
 }
 .höger{
     background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
-    
+    margin-right:401,5;
 }
 .vänster{
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
     margin-left:401,5;
 }
 .center{
+  background-position-x: center;
   margin: 0;
   position: absolute;
   top: 50%;
