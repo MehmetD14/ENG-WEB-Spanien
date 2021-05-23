@@ -82,37 +82,38 @@ font-size: 75px;
 line-height: 100px;
 color: #000000;
 }
-
+#main{
+  background-color: #ffffff;
+  height: 500px;
+}
 #imagebox{
 position: absolute;
 border-radius: 75px;
-width: 505.62px;
-height: 602.04px;
+width: 305.62px;
+height: 402.04px;
 left: 1200px;
-top: 297.96px;
+top: 240px;
 background-image: image-set("HomePage-Pics/spain1 barcelona.jpg");
-background-size:505.62px 602.04px;
+background-size:305.62px 402.04px;
 }
 .slide {
 display:none;
 border-radius: 75px;
-width: 505.62px;
-height: 602.04px;
-
+width: 305.62px;
+height: 402.04px
 }
+.vänster{
+ margin-left: 201.5px;
+}
+
 .höger, .vänster{
     height:50px; 
     width:50px;
     font-weight:bold; 
     font-size:35px;
-}
-.höger{
-    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
-    margin-right:401,5;
-}
-.vänster{
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
-    margin-left:401,5;
+    background-color: #000000af;
+    border-radius: 100px;
+    color:#ffffff
 }
 .center{
   background-position-x: center;
@@ -122,9 +123,58 @@ height: 602.04px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.höger:hover, .vänster:hover{
+color: #000;
+} 
+
 #left{
   float:left;
 }
 #right{
   float:right;
+}
+#cult{
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  height: 400px;
+}
+#trad{
+  background-color: rgb(255, 255, 255);
+  height:400px;
+  overflow: hidden;
+}
+#sight{
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.undertitle{
+  position: static;
+  width: auto;
+  padding-right: 145px;
+  padding-left: auto;
+  height: auto;
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 125px;
+  color: #000000;
+}
+.underpic{
+  margin: 25px;
+  margin-right: 200px;
+  height: 300px;
+  width: 300px;
+  float:right;
+}
+.underparag{
+  width: 200px;
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+}
+.spanhalf{
+  width:300px;
 }
