@@ -199,3 +199,35 @@ h1{
   font-size: 30px;
   width: 25%;
 }
+.textpic{ 
+  width:100%; 
+  height:400px;
+  background-color: #ff00003a;
+}
+.textbox1{
+  width:45%;
+  height:100%;
+  background-color:#eeff0063;
+  overflow:hidden;
+  
+}
+.picbox{
+  width:45%;
+  height:100%;
+  background-color:rgb(55, 0, 255);
+  float:right;
+}
+.fontsize{
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  margin:auto;
+  margin-top: 110px;
+}
+img{
+  height:300px;
+  width:300px;
+  margin-left:100px;
+  margin-top: 50px;
+}
