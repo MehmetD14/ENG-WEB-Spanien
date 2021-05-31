@@ -96,6 +96,8 @@ background-size:305.62px 402.04px;
   background-size:305.62px 402.04px;
   }
 .slide {
+left: 1200px;
+top: 240px;
 display:none;
 border-radius: 75px;
 width: 305.62px;
@@ -202,32 +204,47 @@ h1{
 .textpic{ 
   width:100%; 
   height:400px;
-  background-color: #ff00003a;
+  background-color: rgba(255, 238, 0, 0.521);
 }
 .textbox1{
   width:45%;
   height:100%;
-  background-color:#eeff0063;
+  background-color:rgba(255, 0, 0, 0.801);
   overflow:hidden;
+  float:left;
   
 }
 .picbox{
   width:45%;
   height:100%;
-  background-color:rgb(55, 0, 255);
+  background-color:rgba(255, 0, 0, 0.801);
   float:right;
+  margin: 0px;
 }
-.fontsize{
+.fontsize1{
   font-family: Sansita;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   margin:auto;
-  margin-top: 110px;
+  margin-top: 135px;
+  margin-left:75px;
 }
-img{
+.fontsize2{
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  margin:auto;
+  margin-top: 55px;
+  margin-left:75px;
+}
+.imgsize{
   height:300px;
   width:300px;
   margin-left:100px;
   margin-top: 50px;
+}
+.emptydiv{
+  height:75px;
 }
